@@ -7,7 +7,7 @@ import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import { AppContext } from "../contexts/AppContext";
 function Genre(props) {
   //context
-  const { setIsPlaying, setIsOpenMusic } = useContext(AppContext);
+  const { setIsOpenMusic } = useContext(AppContext);
   const [activeCard, setActiveCard] = useState("");
 
   return (

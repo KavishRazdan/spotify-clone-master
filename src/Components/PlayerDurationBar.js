@@ -23,7 +23,7 @@ export default function PlayerDurationBar() {
     return () => {
       clearInterval(timer);
     };
-  }, []);
+  }, [setProgressSong]);
 
   return (
     <Box sx={{ width: "100%" }}>

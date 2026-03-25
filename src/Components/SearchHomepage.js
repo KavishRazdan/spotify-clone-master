@@ -1,7 +1,7 @@
 import SearchHome from "./SearchHome";
 import Grid from "@mui/material/Grid";
 import "./searchhome.css";
-import { Row, Col, Card } from "reactstrap";
+import { Row } from "reactstrap";
 function SearchHomepage() {
   const browseGenre = [
     {

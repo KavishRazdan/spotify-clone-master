@@ -1,5 +1,4 @@
-import React, { useState, Component } from "react";
-import logo from "./logo.svg";
+import React, { useState } from "react";
 import "./App.css";
 import SpotifyHome from "./Components/SpotifyHome";
 import NavBar from "./Components/NavBar";

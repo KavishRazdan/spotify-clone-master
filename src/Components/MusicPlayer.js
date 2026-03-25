@@ -7,7 +7,7 @@ import "./MusicPlayer.css";
 import { AppContext } from "../contexts/AppContext";
 function MusicPlayer() {
   //context
-  const { isPlayingMusic, setIsOpenPlayer, setIsPlayingMusic, isOpenMusic } =
+  const { isPlayingMusic, setIsPlayingMusic, isOpenMusic } =
     useContext(AppContext);
   const [currentSong, setCurrentSong] = useState(0);
   const handleNextSong = () => {

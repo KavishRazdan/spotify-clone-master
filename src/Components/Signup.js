@@ -9,7 +9,7 @@ import Checkbox from "@mui/material/Checkbox";
 import ReCAPTCHA from "react-google-recaptcha";
 
 function SignUp() {
-  const [verifiedCaptcha, setVerifiedCaptcha] = useState(false);
+  const [, setVerifiedCaptcha] = useState(false);
 
   const captchaHandler = () => {
     return setVerifiedCaptcha(true);
@@ -24,7 +24,7 @@ function SignUp() {
           style={{ maxWidth: "450px", paddingBottom: "130px" }}
         >
           <Row className="justify-content-center">
-            <img className="signup-logo" src="/Spotify_Logo_CMYK_Black.png" />
+            <img className="signup-logo" src="/Spotify_Logo_CMYK_Black.png" alt="Spotify Logo" />
           </Row>
           <Row>
             <h6 className="signup-heading">

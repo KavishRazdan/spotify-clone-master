@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import { Row, Col, Card } from "reactstrap";
 import "./searchhome.css";
-import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 function SearchHome(props) {
   return (
     <>

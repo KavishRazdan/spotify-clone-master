@@ -13,7 +13,7 @@ function SignupMob() {
           style={{ maxWidth: "450px", paddingBottom: "130px" }}
         >
           <Row className="justify-content-center">
-            <img className="signup-logo" src="/Spotify_Logo_CMYK_Black.png" />
+            <img className="signup-logo" src="/Spotify_Logo_CMYK_Black.png" alt="Spotify Logo" />
           </Row>
 
           <Row className="justify-content-center pt-3">

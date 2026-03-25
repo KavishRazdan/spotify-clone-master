@@ -7,13 +7,13 @@ import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import logo from "../assests/Spotify_Logo_RGB_White.png";
 import Divider from "@mui/material/Divider";
-import { Row, Col } from "reactstrap";
+import { Row } from "reactstrap";
 import "./navbar.css";
 import SearchSharpIcon from "@mui/icons-material/SearchSharp";
 import { Link } from "react-router-dom";
 import { useAuth0 } from "@auth0/auth0-react";
 export default function NavBar(props) {
-  const { user, isAuthenticated, isLoading } = useAuth0();
+  const { isAuthenticated } = useAuth0();
 
   const LoginButton = () => {
     const { loginWithRedirect } = useAuth0();
