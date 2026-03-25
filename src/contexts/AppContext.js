@@ -16,6 +16,7 @@ const AppContextProvider = (props) => {
       document.getElementById("body").style.backgroundColor = "#121212";
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps
+  
   }, [window.location.pathname]);
 
   return (
