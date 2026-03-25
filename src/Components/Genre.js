@@ -7,8 +7,7 @@ import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import { AppContext } from "../contexts/AppContext";
 function Genre(props) {
   //context
-  const { isOpenPlayer, setIsOpenPlayer, setIsPlaying, setIsOpenMusic } =
-    useContext(AppContext);
+  const { setIsPlaying, setIsOpenMusic } = useContext(AppContext);
   const [activeCard, setActiveCard] = useState("");
 
   return (
@@ -62,7 +61,6 @@ function Genre(props) {
                             <Col className={"play-icon-box-container"}>
                               <PlayArrowIcon
                                 onClick={() => {
-                                  // setIsOpenPlayer(true)
                                   setIsOpenMusic(true);
                                 }}
                               />
